@@ -2,6 +2,17 @@
 
 This Verilog project demonstrates pipeline modeling through a 4-stage arithmetic expression. The design uses registers (latches) to hold intermediate results between stages, improving throughput and allowing multiple operations to be overlapped in time.
 
+▶️A typical 4-stage pipeline includes:
+
+▪️Instruction Fetch (IF): Fetches the instruction from memory.
+
+▪️Instruction Decode (ID): Decodes the instruction and reads operands from the register file. 
+
+▪️Execute (EX): Performs the arithmetic or logical operation using the ALU.
+
+▪️Memory Access (MA) / Write Back (WB): Accesses memory for load/store operations or writes the result back to the register file. 
+(Sometimes MA and WB are combined or separated into distinct stages depending on the specific design.)
+
 2️⃣ Testbench Features:
 
 ➡️ Simulates input values with time delays.
