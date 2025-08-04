@@ -12,7 +12,7 @@ This Verilog project demonstrates pipeline modeling through a 4-stage arithmetic
 
 ➡️ Waveform generated via $dumpfile and $dumpvars.
 
-Simulation Commands:
+◾️Simulation Commands:
 
 ▶️ Compile with Icarus Verilog:
 
@@ -29,9 +29,13 @@ Simulation Commands:
 3️⃣ terminal Outputs:
 
 Time(ns)                A	   B	  C	  D	  E    Expected H
+
 5                     	5	   10	  2 	5	  2	   80 (0x50)
+
 25	                    10	 2	  5	  2	  2	   100 (0x64)
+
 45	                    9	   10	  2	  1	  0	   0 (0x00)
+
 65	                    5	   0	  2	  0	  2	   30 (0x1E)
 
 🔸️ Expression Evaluated:
