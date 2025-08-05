@@ -63,3 +63,5 @@ This Verilog project demonstrates pipeline modeling through a 4-stage arithmetic
 ▪️ H = [ (A + B) - (C + D) ] × E × A
 
 OUTPUT:-
+
+![Image](https://github.com/user-attachments/assets/227f3327-5dc1-4e95-957d-0ec35e594f67)
