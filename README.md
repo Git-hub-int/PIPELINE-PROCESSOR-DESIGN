@@ -1,5 +1,17 @@
 1️⃣ # PIPELINE-PROCESSOR-DESIGN
 
+COMPANY:- CODTECH IT SOLUTIONS 
+
+NAME:- GARIMA VERMA
+
+INTERN ID:- CT04DH2092
+
+DOMAIN:- VLSI
+
+DURATION:- 4 WEEKS 
+
+MENTOR:- NEELA SANTOSH 
+
 This Verilog project demonstrates pipeline modeling through a 4-stage arithmetic expression. The design uses registers (latches) to hold intermediate results between stages, improving throughput and allowing multiple operations to be overlapped in time.
 
 ▶️A typical 4-stage pipeline includes:
@@ -49,3 +61,5 @@ This Verilog project demonstrates pipeline modeling through a 4-stage arithmetic
 🔸️ Expression Evaluated:
 
 ▪️ H = [ (A + B) - (C + D) ] × E × A
+
+OUTPUT:-
